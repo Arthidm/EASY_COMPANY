@@ -1,1 +1,396 @@
 // Specific CSS for your home-page
+// Specific CSS for your home-page
+.app-container {
+  width: 100%;
+  height: 60vh;
+}
+
+body {
+  background-color: #faf6e9;
+}
+
+.landing {
+  width: 100%;
+  background-color: #16383a;
+  height: 100%;
+  text-align: center;
+  padding-top: 18vh;
+}
+
+.landing img {
+
+  // width: 500px;
+  // height: 500px;
+}
+
+.text-container {
+  padding-top: 1.5rem;
+  // margin-top: 7vh;
+  text-align: center;
+  height: 60vh;
+}
+
+.title2 {
+  // height: 25vh;
+}
+
+.title2 h3 {
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Frank Ruhl Libre', serif;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 6%;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 2.5;
+}
+
+.title h3 {
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Frank Ruhl Libre', serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.text {
+  margin-top: 4vh;
+  padding-right: 30vw;
+  padding-left: 30vw;
+}
+
+.text::after {
+  content:'';
+  height: 0.5px;
+  width:20%;
+  background: #16383a;
+  position:absolute;
+  left:calc(50% - 10%);
+  bottom: 6vh;
+}
+
+.text p {
+  text-transform: uppercase;
+
+  letter-spacing: 0.2rem;
+  color: #16383a;
+  font-size: 14px;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.text h6 {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Frank Ruhl Libre', serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  color: #16383a;
+  padding-top: 4vh;
+}
+
+@media(max-width: 992px) {
+  .landing img {
+    width: 70%;
+    height: 70%;
+    padding-top: unset;
+  }
+
+  .landing {
+    padding-top: unset
+  }
+
+  .title h3 {
+    font-size: 18px;
+  }
+
+  .text-container {
+    margin-top: unset;
+  }
+
+  .app-container {
+    height: 32vh;
+  }
+
+  .text {
+    margin-top: unset;
+    padding: 2rem;
+  }
+
+  .text p {
+    font-size: 16px;
+  }
+
+  .landing {
+    height: unset;
+  }
+
+}
+
+
+.img_cont {
+  background-color: #faf6e9;
+  width: 100vw;
+}
+
+.img_cont h1 {
+  font-size: 60px;
+  color: #faf6e9;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 700;
+  position: absolute;
+  top: 258px;
+  left: 0;
+  width: 100%;
+}
+
+
+.vignette {
+
+  position: absolute;
+  top: 333px;
+  left: 0;
+}
+
+
+.rotate {
+  position: absolute;
+  top: -93px;
+  left: 58%;
+  animation: rotation 40s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+
+.img_cont p {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Crimson Text';
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
+  color: #faf6e9;
+
+  position: absolute;
+  top: 333px;
+  left: 0;
+  width: 100%;
+}
+
+.tocenter {
+  width: 100%;
+  text-align: center;
+}
+
+
+.img_main {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Our {
+  width: 100vw;
+  object-fit: cover;
+  // width: -webkit-fill-available;
+}
+
+
+.box-container {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  // justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.box {
+  position: relative;
+  width: 600px;
+  height: 333px;
+  border: #16383a;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.box-title {
+  top: 20%;
+  position: relative;
+}
+
+.box-title h3 {
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.description {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.description h4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #16383a;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // padding: 80px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.description2 {
+  padding-top: 2%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.description2 p {
+  line-height: 2.5;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #16383a;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // padding: 80px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+#myBtn2 {
+  margin-right: 35%;
+  margin-left: 35%;
+  top: 60%;
+  position: relative;
+  font-weight: 900;
+  font-family: "Century Gothic", 'Lato', sans-serif;
+  letter-spacing: .2rem;
+  font-size: 16px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: solid 1px #16383a;
+  color: #16383a;
+  cursor: pointer;
+}
+
+#myBtn2:hover {
+  background: #16383A;
+  color: #FAF6E9;
+  border: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: blue;
+  font-size: 4rem;
+  text-align: center;
+}
+
+section {
+  height: 60vh;
+}
+.tag {
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.yellow {
+  background-color: #ffd046;
+}
+.red {
+  background-color: #FAF6E9;
+}
+.blue {
+  height: 50vh;
+  background-color: #ffd046;
+}
+.green {
+  background-color: #FAF6E9;
+}
+
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.text-tech {
+  width: 745px;
+}
+
+.text-tech h3 {
+  line-height: 2.5;
+  padding-top: 20%;
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-tech p {
+  // padding-top: 6%;
+  line-height: 2.5;
+  color: #16383a;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.img_recept {
+  width: 745px;
+}
+
+.img_recept2 {
+  width: 745px;
+}
+
+
+.img_recept2 img {
+  padding-left: 0%;
+  padding-top: 8%;
+}
+
+
+.img_recept img {
+  padding-left: 35%;
+  padding-top: 16%;
+}
