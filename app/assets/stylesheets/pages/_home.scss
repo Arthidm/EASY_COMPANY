@@ -27,7 +27,6 @@ body {
   padding-top: 1.5rem;
   // margin-top: 7vh;
   text-align: center;
-  height: 60vh;
 }
 
 .title2 {
@@ -335,8 +334,13 @@ section {
 }
 .red {
   background-color: #FAF6E9;
+  height: fit-content;
+  padding-bottom: 6rem;
+
 }
 .blue {
+  vertical-align: middle;
+  display: table-cell;
   height: 50vh;
   background-color: #ffd046;
 }
@@ -563,4 +567,52 @@ section {
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 28px;
   font-weight: 600;
+}
+
+
+
+
+
+
+
+//New stuff
+
+.titlecont {
+
+}
+
+.textone {
+  text-align: center;
+
+  // height: 25vh;
+}
+
+.textone p {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // font-family: 'Frank Ruhl Libre', serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.texttwo {
+  text-align: center;
+
+  // height: 25vh;
+}
+
+.texttwo p {
+  line-height: 2.5;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #16383a;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  // padding: 80px;
+  font-size: 14px;
+  font-weight: 300;
 }
