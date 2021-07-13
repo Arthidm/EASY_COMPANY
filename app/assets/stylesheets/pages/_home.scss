@@ -313,7 +313,7 @@ h1 {
 }
 
 section {
-  height: 60vh;
+  // height: 60vh;
 }
 .tag {
 }
@@ -345,6 +345,14 @@ section {
   background-color: #ffd046;
 }
 .green {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #FAF6E9;
+}
+
+.brown {
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #FAF6E9;
 }
 
@@ -360,9 +368,8 @@ section {
 }
 
 .text-tech h3 {
-  text-align: right;
+  text-align: left;
   line-height: 2.5;
-  padding-top: 20%;
   color: #16383a;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -371,7 +378,32 @@ section {
 }
 
 .text-tech p {
-  // padding-top: 6%;
+  text-align: left;
+  line-height: 2.5;
+  color: #16383a;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.text-tech2 {
+  width: 745px;
+}
+
+.text-tech2 h3 {
+  text-align: right;
+  line-height: 2.5;
+  color: #16383a;
+  letter-spacing: .2rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.text-tech2 p {
+  padding-left: 20%;
   text-align: right;
   line-height: 2.5;
   color: #16383a;
@@ -382,24 +414,26 @@ section {
   font-weight: 300;
 }
 
+
+
 .img_recept {
   width: 745px;
 }
 
 .img_recept2 {
-  width: 745px;
+  // width: 745px;
 }
 
 
 .img_recept2 img {
-  padding-left: 0%;
-  padding-top: 8%;
+  // padding-left: 0%;
+  // padding-top: 8%;
 }
 
 
 .img_recept img {
-  padding-left: 35%;
-  padding-top: 16%;
+  padding-left: 20%;
+
 }
 
 
@@ -421,7 +455,6 @@ section {
 }
 
 .carousel__track-container {
-  background: lightcyan;
   height: 100%;
   position: relative;
   overflow: hidden;
