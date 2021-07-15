@@ -11,7 +11,7 @@ body {
 
 .landing {
   width: 100%;
-  background-color: #16383a;
+  background-color: black;
   height: 100%;
   text-align: center;
   padding-top: 18vh;
@@ -24,7 +24,7 @@ body {
 }
 
 .text-container {
-  padding-top: 1.5rem;
+  padding-top: 7rem;
   // margin-top: 7vh;
   text-align: center;
 }
@@ -34,7 +34,7 @@ body {
 }
 
 .title2 h3 {
-  color: #16383a;
+
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   // font-family: 'Frank Ruhl Libre', serif;
@@ -47,7 +47,7 @@ body {
 }
 
 .title h3 {
-  color: #16383a;
+
   letter-spacing: .2rem;
   font-family: "Nunito", "Helvetica", "sans-serif";
   // font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -107,6 +107,7 @@ body {
   }
 
   .text-container {
+
     margin-top: unset;
   }
 
@@ -132,17 +133,17 @@ body {
 
 .img_cont {
   background-color: #faf6e9;
-  width: 100vw;
+
 }
 
 .img_cont h1 {
-  font-size: 60px;
-  color: #faf6e9;
+  font-size: 96px;
+  color: #e1fcfd;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   // font-family: 'Frank Ruhl Libre', serif;
-  font-weight: 700;
+  font-weight: 900;
   position: absolute;
-  top: 258px;
+  top: 45vh;
   left: 0;
   width: 100%;
 }
@@ -175,15 +176,17 @@ body {
 
 
 .img_cont p {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  padding-right: 30%;
+  padding-left: 30%;
+  font-family: roboto, sans-serif;
   // font-family: 'Crimson Text';
-  text-transform: uppercase;
-  font-size: 12px;
+  // text-transform: uppercase;
+  font-size: 18px;
   letter-spacing: 0.2rem;
   color: #faf6e9;
-
+  font-weight: 300;
   position: absolute;
-  top: 333px;
+  top: 59vh;
   left: 0;
   width: 100%;
 }
@@ -193,10 +196,47 @@ body {
   text-align: center;
 }
 
+.tocenter img {
+  position: absolute;
+  top: 333px;
+  left: 0;
+
+}
+
+.imgcentre {
+  position: relative;
+  text-align: center;
+  display: block;
+  top: -73vh;
+}
+
+.imgcentre img {
+
+}
+
+.imgscroll {
+  padding-right: 6rem;
+  position: relative;
+  text-align: right;
+  display: block;
+  top: -77vh;
+}
+
+.imgscroll img {
+
+}
+
+.img_cont {
+  max-height: 114vh
+}
+
+.img_main {
+  background-color: #394F8A;
+}
 
 .img_main img {
   position: relative;
-  height: 70vh;
+  height: 107vh;
   width: 100%;
   object-fit: cover;
 }
@@ -220,7 +260,7 @@ body {
   position: relative;
   width: 600px;
   height: 333px;
-  border: #16383a;
+  border: black;
   border-width: 1px;
   border-style: solid;
 }
@@ -231,7 +271,6 @@ body {
 }
 
 .box-title h3 {
-  color: #16383a;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 24px;
@@ -249,7 +288,6 @@ body {
 .description h4 {
   padding-left: 20px;
   padding-right: 20px;
-  color: #16383a;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -268,7 +306,6 @@ body {
   line-height: 2.5;
   padding-left: 20px;
   padding-right: 20px;
-  color: #16383a;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -292,13 +329,12 @@ body {
   padding-left: 2rem;
   padding-right: 2rem;
   border: solid 1px #16383a;
-  color: #16383a;
   cursor: pointer;
 }
 
 #myBtn2:hover {
-  background: #16383A;
-  color: #FAF6E9;
+  background: #9CF6FB;
+  color: black;
   border: none;
 }
 
@@ -335,14 +371,14 @@ section {
 .red {
   background-color: #FAF6E9;
   height: fit-content;
-  padding-bottom: 6rem;
+  padding-bottom: 14rem;
 
 }
 .blue {
   vertical-align: middle;
   display: table-cell;
   height: 50vh;
-  background-color: #ffd046;
+  background-color: #E5B9A8;
 }
 .green {
   text-align: center;
@@ -360,6 +396,8 @@ section {
 
 
 .container2 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   display: flex;
   justify-content: center;
 }
@@ -371,7 +409,7 @@ section {
 .text-tech h3 {
   text-align: left;
   line-height: 2.5;
-  color: #16383a;
+  color: black;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 24px;
@@ -381,7 +419,7 @@ section {
 .text-tech p {
   text-align: left;
   line-height: 2.5;
-  color: #16383a;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -397,7 +435,7 @@ section {
   padding-left: 20%;
   text-align: right;
   line-height: 2.5;
-  color: #16383a;
+  color: black;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 24px;
@@ -408,7 +446,7 @@ section {
   padding-left: 20%;
   text-align: right;
   line-height: 2.5;
-  color: #16383a;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -428,6 +466,7 @@ section {
 
 
 .img_recept2 img {
+  width: 500px;
   // padding-left: 0%;
   // padding-top: 8%;
 }
@@ -577,7 +616,7 @@ section {
 .carou_text p {
   padding-top: 2rem;
   line-height: 2;
-  color: #16383a;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -597,7 +636,7 @@ section {
   position: relative;
   top: 119px;
   text-align: center;
-  color: #16383a;
+  color: black;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   font-size: 28px;
@@ -625,7 +664,7 @@ section {
 .textone p {
   padding-left: 10%;
   padding-right: 10%;
-  color: #16383a;
+  color: black;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   // font-family: 'Frank Ruhl Libre', serif;
@@ -643,11 +682,89 @@ section {
   line-height: 2.5;
   padding-left: 10%;
   padding-right: 10%;
-  color: #16383a;
+  color: black;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   // padding: 80px;
   font-size: 14px;
   font-weight: 300;
+}
+
+
+nav {
+    width: var(--menu-width);
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
+    margin: 0px auto;
+    perspective: 2000px;
+    flex-wrap: wrap;
+    top: 3em;
+}
+
+nav .menu-item {
+    color: white;
+    font-weight: 600;
+    transform-style: preserve-3d;
+    flex-grow: 1;
+    display: flex;
+    flex-basis: var(--item-width);
+    box-sizing: border-box;
+    padding: 1em 1.5em;
+    justify-content: center;
+    perspective: 200px;
+    letter-spacing: 0.5px;
+    min-height: 7.5em;
+}
+
+nav .menu-text, nav .menu-text a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    transition: color 0.1s ease-out;
+    text-align: center;
+}
+
+nav .menu-text a:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+
+
+.bounce {
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -ms-border-radius:50%;
+  border-radius:50%;
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }
